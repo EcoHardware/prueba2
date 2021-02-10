@@ -1,0 +1,81 @@
+.info{
+	margin:4vh;
+	max-width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#imglibro img{
+	max-width: 100%;
+}
+
+#texto{
+	margin-left: 15vh;
+}
+
+#texto li{
+	font-family: calibri;
+	padding-top: 5vh;
+	font-size:2.8vh;
+}
+
+h2{
+	padding-bottom:6vh;
+	font-size:6vh;
+	font-family: "Poppins", sans-serif;
+}
+
+#mostrar {
+	border: 2px solid white;
+  	background: #222;
+  	color:white;
+  	padding: 2.5vh 2vh; 
+ 	text-align: center;
+ 	text-decoration: none;
+  	font-size: 16px;
+  	margin:2.5vh 4vh;
+  	cursor: pointer;
+}
+#mostrar:hover{
+	border: 2px solid black;
+  	background: white;
+  	color:black;
+  	padding: 2.5vh 2vh; 
+  	text-align: center;
+ 	text-decoration: none;
+ 	font-size: 16px;
+  	margin:2.5vh 4vh;
+  	cursor: pointer;
+}
+#sinopsis{
+	font-family: calibri;
+	display:none;
+	text-align: justify;
+	margin:3vh;
+	font-size: 2.8vh;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	button{
+		margin-left:35%;
+	}
+
+	button:hover{
+		margin-left:35%;
+	}
+
+	h2{
+		text-align: center;
+	}
+	.info{
+		flex-wrap:wrap;
+	}
+	#imglibro{
+		margin:auto;
+	}
+	#texto{
+		margin:auto;
+	}
+}

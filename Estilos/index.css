@@ -1,0 +1,19 @@
+.superior{
+	margin:4vh 0;
+	display:flex;
+	border: solid 2px black;
+}
+
+.texto{
+	border: solid 2px black;
+}
+
+.publicidad{
+	border: solid 2px black;	
+}
+
+@media screen and (max-width: 768px){
+	.publicidad{
+		display:none;		
+	}
+}
